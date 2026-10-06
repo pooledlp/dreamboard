@@ -1,0 +1,12 @@
+{
+  "source": "AI Receptionist review fixture",
+  "externalId": "fictional-appointment-001",
+  "title": "Review appointment request",
+  "description": "Fictional review example: a visitor requested Tuesday afternoon. A person must verify availability before any confirmation.",
+  "project": "Customer experience",
+  "owner": "Scheduling",
+  "priority": "normal",
+  "dueDate": "",
+  "requiresReview": true
+}
+

@@ -1,0 +1,16 @@
+{
+  "name": "@dreamprotocol/dreamboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "DreamProtocol operations workspace for task orchestration and human review",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "check": "node --check server.mjs && node --check src/domain.mjs && node --check src/store.mjs && node --check public/app.js",
+    "test": "node --test"
+  }
+}
+
